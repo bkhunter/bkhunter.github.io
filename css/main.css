@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image:  url('Images/benMusic');
+    background-image:  url('../Images/benMusic');
     background-size: cover;
     position: relative;
     color: #878787;
@@ -106,29 +106,29 @@
 
 
 .tile-first {
-    background-image: url('Images/aboutMe.jpg');
+    background-image: url('../Images/aboutMe.jpg');
 }
 
 .tile-first:hover {
-    background-image: url('Images/aboutMeHover.jpg');
+    background-image: url('../Images/aboutMeHover.jpg');
     background-position: 50% 50%;
 }
 
 .tile-second {
-    background-image: url('Images/projects.jpg');
+    background-image: url('../Images/projects.jpg');
 }
 
 .tile-second:hover {
-    background-image: url('Images/projectsHover.jpg');
+    background-image: url('../Images/projectsHover.jpg');
     background-position: 50% 50%;
 }
 
 .tile-third {
-    background-image: url('Images/resume.jpg');
+    background-image: url('../Images/resume.jpg');
 }
 
 .tile-third:hover {
-    background-image: url('Images/resumeHover.jpg');
+    background-image: url('../Images/resumeHover.jpg');
     background-position: 50% 50%;
 }
 
