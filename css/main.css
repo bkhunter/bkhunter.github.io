@@ -1,0 +1,152 @@
+.jumbotron {
+    background-image:  url('../Images/benMusic');
+    background-size: cover;
+    position: relative;
+    color: #878787;
+}
+
+.contact {
+    color: white;
+}
+
+.filler {
+    height: 100%;
+}
+
+/** Css for Tiles with animation **/
+
+.tiles {
+    position: relative;
+}
+
+.tile {
+    margin-top: -10px;
+    margin-bottom: 0;
+    height: 300px;
+    text-align:center;
+
+    background-repeat: repeat;
+    background-position: 0% 0%;
+
+    border-style:solid;
+    border-size:10px;
+    border-color:white;
+
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    -webkit-transition: background-image 0.3s ease, background-position 0.3s;
+    transition: background-image 0.3s ease, background-position 0.3s;
+}
+
+.tile h2 {
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+/** Moves the tile labels up **/
+.tile .move-hover {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.tile:hover .move-hover {
+    -webkit-transform: translateY(-120px);
+    transform: translateY(-120px);
+}
+
+/** Expands out the tile link-buttons **/
+.tile .expand {
+
+    margin: 30px;
+    margin-top: 10px;
+    opacity: 0;
+    
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s ease, opacity 0.3s;
+    
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.tile:hover .expand {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.tile .well {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0;
+    color: white;
+    background-color: rgba(245, 245, 245, 0.5);
+    font-size: 25px;
+    height: 100px;
+}
+
+.tile:hover .well .expand {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.tile-first {
+    background-image: url('../Images/aboutMe.jpg');
+}
+
+.tile-first:hover {
+    background-image: url('../Images/aboutMeHover.jpg');
+    background-position: 50% 50%;
+}
+
+.tile-second {
+    background-image: url('../Images/projects.jpg');
+}
+
+.tile-second:hover {
+    background-image: url('../Images/projectsHover.jpg');
+    background-position: 50% 50%;
+}
+
+.tile-third {
+    background-image: url('../Images/resume.jpg');
+}
+
+.tile-third:hover {
+    background-image: url('../Images/resumeHover.jpg');
+    background-position: 50% 50%;
+}
+
+.spacer {
+    height: 80px;
+}
+
+.btn:hover, .btn:focus {
+    color: white;
+}
+
+.btn.btn-white-fill {
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+}
+
+.btn.btn-white-fill:hover {
+    color: #00a8ff;
+    background: #fff;
+}
