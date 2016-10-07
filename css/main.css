@@ -106,30 +106,15 @@
 
 
 .tile-first {
-    background-image: url('../Images/aboutMe.jpg');
-}
-
-.tile-first:hover {
     background-image: url('../Images/aboutMeHover.jpg');
-    background-position: 50% 50%;
 }
 
 .tile-second {
-    background-image: url('../Images/projects.jpg');
-}
-
-.tile-second:hover {
     background-image: url('../Images/projectsHover.jpg');
-    background-position: 50% 50%;
 }
 
 .tile-third {
-    background-image: url('../Images/resume.jpg');
-}
-
-.tile-third:hover {
     background-image: url('../Images/resumeHover.jpg');
-    background-position: 50% 50%;
 }
 
 .spacer {
@@ -149,4 +134,50 @@
 .btn.btn-white-fill:hover {
     color: #00a8ff;
     background: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 385px) {
+    .tile .well {
+	margin-top: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	opacity: 0;
+	color: white;
+	background-color: rgba(245, 245, 245, 0.5);
+	font-size: 20px;
+	height: 100px;
+    }
+
+}
+
+/* Don't want image transitions on mobile devices */
+@media (min-width: 992px) { 
+    .tile-first {
+	background-image: url('../Images/aboutMe.jpg');
+    }
+
+    .tile-first:hover {
+	background-image: url('../Images/aboutMeHover.jpg');
+	background-position: 50% 50%;
+    }
+
+    .tile-second {
+	background-image: url('../Images/projects.jpg');
+    }
+
+    .tile-second:hover {
+	background-image: url('../Images/projectsHover.jpg');
+	background-position: 50% 50%;
+    }
+
+    .tile-third {
+	background-image: url('../Images/resume.jpg');
+    }
+
+    .tile-third:hover {
+	background-image: url('../Images/resumeHover.jpg');
+	background-position: 50% 50%;
+    }
+
 }
