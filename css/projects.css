@@ -199,11 +199,37 @@ body {
 
     .info {
 	left:0;
-	font-size: 17px;
+	font-size: 15px;
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 750px;
+	height: 650px;
+    }
+
+}
+
+@media (min-width: 320px) {
+
+    .info {
+	left:0;
+	font-size: 15px;
+	color: white;
+	width: 100%;
+	background-color: grey;
+	height: 600px;
+    }
+
+}
+
+@media (min-width: 340px) {
+
+    .info {
+	left:0;
+	font-size: 15px;
+	color: white;
+	width: 100%;
+	background-color: grey;
+	height: 550px;
     }
 
 }
@@ -212,24 +238,37 @@ body {
 
     .info {
 	left:0;
-	font-size: 17px;
+	font-size: 15px;
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 620px;
+	height: 505px;
     }
 
 }
 
-@media (min-width: 420px) { 
+@media (min-width: 400px) {
 
     .info {
 	left:0;
-	font-size: 17px;
+	font-size: 15px;
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 550px;
+	height: 450px;
+    }
+
+}
+
+@media (min-width: 455px) { 
+
+    .info {
+	left:0;
+	font-size: 15px;
+	color: white;
+	width: 100%;
+	background-color: grey;
+	height: 380px;
     }
 
     .project .title {
@@ -244,16 +283,39 @@ body {
     }
 }
 
-@media (min-width: 525px) { 
+@media (min-width: 510px) { 
+
+    .info {
+	left:0;
+	font-size: medium;
+	color: white;
+	width: 100%;
+	background-color: grey;
+	height: 380px;
+    }
+
+    .project .title {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	height:128px;
+	transform-origin: top left;
+	vertical-align: middle;
+	line-height: 128px;
+    }
+}
+
+@media (min-width: 575px) { 
 
     
     .info {
 	left:0;
-	font-size: 17px;
+	font-size: medium;
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 375px;
+	height: 330px;
     }
 
     .project .title {
@@ -268,13 +330,39 @@ body {
     }
 }
 
+@media (min-width: 640px) { 
+
+    
+    .info {
+	left:0;
+	font-size: medium;
+	color: white;
+	width: 100%;
+	background-color: grey;
+	height: 300px;
+    }
+
+    .project .title {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	height:128px;
+	transform-origin: top left;
+	vertical-align: middle;
+	line-height: 128px;
+    }
+}
+
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
 
     .info {
 	left:0;
-	font-size: 17px;
+	font-size: medium;
 	color: white;
 	width: 100%;
 	background-color: grey;
@@ -295,8 +383,9 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
     .links {
-	height: 314px;
+	height: 344px;
     }
 
     .info {
@@ -305,7 +394,7 @@ body {
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 300px;
+	height: 330px;
     }
 
     .project .title {
@@ -332,7 +421,8 @@ body {
 	color: white;
 	width: 100%;
 	background-color: grey;
-	height: 256PX;
+	height: 256px;
+	
     }
 
     .project .title {
