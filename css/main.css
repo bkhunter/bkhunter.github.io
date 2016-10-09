@@ -52,7 +52,8 @@
 
 /** Moves the tile labels up **/
 .tile .move-hover {
-    -webkit-transform: translateY(0);
+    -webkit-transform: translate3d(0,0,0);
+    /* -webkit-transform: translateY(0); */
     transform: translateY(0);
     
     -webkit-transition: -webkit-transform 0.3s;
@@ -60,7 +61,8 @@
 }
 
 .tile:hover .move-hover {
-    -webkit-transform: translateY(-90px);
+    -webkit-transform: translate3d(0,-90,0);
+    /* -webkit-transform: translateY(-90px); */
     transform: translateY(-90px);
 }
 
