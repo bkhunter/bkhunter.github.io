@@ -35,7 +35,7 @@
     -webkit-background-size: cover;
     background-size: cover;
 
-    -webkit-transition: background-image 0.3s ease, background-position 0.3s;
+    -webkit-transition: -webkit-background-image 0.3s ease, -webkit-background-position 0.3s;
     transition: background-image 0.3s ease, background-position 0.3s;
 }
 
@@ -52,7 +52,7 @@
 
 /** Moves the tile labels up **/
 .tile .move-hover {
-    -webkit-transform: translateY(0);
+    -webkit-transform: -webkit-translateY(0);
     transform: translateY(0);
     
     -webkit-transition: -webkit-transform 0.3s;
@@ -60,7 +60,7 @@
 }
 
 .tile:hover .move-hover {
-    -webkit-transform: translateY(-120px);
+    -webkit-transform: -webkit-translateY(-120px);
     transform: translateY(-120px);
 }
 
@@ -74,14 +74,14 @@
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s ease, opacity 0.3s;
     
-    -webkit-transform: scale(0.6);
+    -webkit-transform: -webkit-scale(0.6);
     -ms-transform: scale(0.6);
     transform: scale(0.6);
 }
 
 .tile:hover .expand {
     opacity: 1;
-    -webkit-transform: scale(1);
+    -webkit-transform: -webkit-scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
 }
