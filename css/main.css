@@ -131,7 +131,7 @@
 
 
 /* Don't want image transitions on mobile devices */
-@media (min-width: 1025px) { 
+@media (min-width: 1050px) { 
     .tile-first {
 	background-image: url('../Images/aboutMe.jpg');
     }
