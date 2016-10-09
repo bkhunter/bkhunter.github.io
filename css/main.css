@@ -35,8 +35,8 @@
     -webkit-background-size: cover;
     background-size: cover;
 
-    -webkit-transition: background-image 0.3s ease, background-position 0.3s;
-    transition: background-image 0.3s ease, background-position 0.3s;
+    -webkit-transition: background-image 0.4s ease, background-position 0.4s;
+    transition: background-image 0.4s ease, background-position 0.4s;
 }
 
 .tile h2 {
@@ -60,8 +60,8 @@
 }
 
 .tile:hover .move-hover {
-    -webkit-transform: translateY(-120px);
-    transform: translateY(-120px);
+    -webkit-transform: translateY(-90px);
+    transform: translateY(-90px);
 }
 
 /** Expands out the tile link-buttons **/
@@ -74,20 +74,21 @@
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s ease, opacity 0.3s;
     
-    -webkit-transform: scale(0.6);
+    -webkit-transform: -webkit-scale(0.6);
     -ms-transform: scale(0.6);
     transform: scale(0.6);
 }
 
 .tile:hover .expand {
     opacity: 1;
+
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
 }
 
 .tile .well {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     opacity: 0;
@@ -107,7 +108,7 @@
 }
 
 .tile-third {
-    background-image: url('../Images/resumeHover.jpg');
+    background-image: url('../Images/resumeHover.png');
 }
 
 .spacer {
@@ -129,20 +130,6 @@
     background: #fff;
 }
 
-/* Media Queries */
-@media (max-width: 385px) {
-    .tile .well {
-	margin-top: 80px;
-	margin-left: 10px;
-	margin-right: 10px;
-	opacity: 0;
-	color: white;
-	background-color: rgba(245, 245, 245, 0.5);
-	font-size: 20px;
-	height: 100px;
-    }
-
-}
 
 /* Don't want image transitions on mobile devices */
 @media (min-width: 992px) { 
@@ -161,15 +148,15 @@
 
     .tile-second:hover {
 	background-image: url('../Images/projectsHover.jpg');
-	background-position: 50% 50%;
+	background-position: 0% 60%;
     }
 
     .tile-third {
-	background-image: url('../Images/resume.jpg');
+	background-image: url('../Images/resume.png');
     }
 
     .tile-third:hover {
-	background-image: url('../Images/resumeHover.jpg');
+	background-image: url('../Images/resumeHover.png');
 	background-position: 50% 50%;
     }
 
