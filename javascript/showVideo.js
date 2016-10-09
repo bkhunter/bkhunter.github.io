@@ -12,8 +12,15 @@ function showVideo(id){
 
     var vid = document.getElementById(id);
 
-    modalVid.width = .7*window.innerWidth.toString();
-    modalVid.height = .7*window.innerHeight.toString();
+    if (window.innerHeight <= 500) {
+
+	modalVid.width = "80%";
+	modalVid.height = "80%";
+
+    } else { 
+	modalVid.width = "80%";
+	modalVid.height = "60%";
+    }
 
     modalImg.height = "0";
     modalImg.width = "0";

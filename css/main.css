@@ -97,13 +97,6 @@
     height: 100px;
 }
 
-.tile:hover .well .expand {
-    opacity: 0.5;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
 
 .tile-first {
     background-image: url('../Images/aboutMeHover.jpg');

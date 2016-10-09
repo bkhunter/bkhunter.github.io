@@ -12,9 +12,43 @@ function showImg(id){
     var img = document.getElementById(id);
 
 
-
-    modalImg.width = .7*window.innerWidth.toString();
-    modalImg.height = .7*window.innerHeight.toString();
+    if (window.innerWidth >= 1200) {
+	//lg
+	if (window.innerHeight <= 400) {
+	    modalImg.width = .4*window.innerWidth.toString();
+	    modalImg.height = .7*window.innerHeight.toString();
+	} else {
+	    modalImg.width = 0.9*window.innerWidth.toString();
+	    modalImg.height = .7*window.innerHeight.toString();
+	}
+    } else if (window.innerWidth  >= 992) {
+	//md
+	if (window.innerHeight <= 400) {
+	    modalImg.width = .4*window.innerWidth.toString();
+	    modalImg.height = .7*window.innerHeight.toString();
+	} else {
+	    modalImg.width = .7*window.innerWidth.toString();
+	    modalImg.height = .6*window.innerHeight.toString();
+	}
+    } else if (window.innerWidth >= 768) {
+	//sm
+	if (window.innerHeight <= 400) {
+	    modalImg.width = .4*window.innerWidth.toString();
+	    modalImg.height = .7*window.innerHeight.toString();
+	} else {
+	    modalImg.width = .9*window.innerWidth.toString();
+	    modalImg.height = .5*window.innerHeight.toString();
+	}
+    } else {
+	//xs
+	if (window.innerHeight <= 400) {
+	    modalImg.width = .6*window.innerWidth.toString();
+	    modalImg.height = .7*window.innerHeight.toString();
+	} else {
+	    modalImg.width = .9*window.innerWidth.toString();
+	    modalImg.height = .4*window.innerHeight.toString();
+	}
+    }
     
 
     modalVid.height = "0";

@@ -16,9 +16,9 @@ function animation(iconId,toggleId) {
 	icon.animated = !icon.animated;
     }
     
+    
     // animate icon only for md and lg sizes
     if (window.outerWidth >= 992) {
-	
 	if (icon.style.top == "115px") {
 	    icon.style.top = "0px";
 	} else {

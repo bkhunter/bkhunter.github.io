@@ -17,6 +17,7 @@ function showText(textId, hiddenId){
     paragraph.innerText = text.innerText.slice(0,-13) +"\n\n" + extension.innerText;
 
     modal.style.display = "block";
+    paragraph.style.height = .65*window.innerHeight.toString() + "px";
 
     modalVid.height = "0";
     modalVid.width = "0";
