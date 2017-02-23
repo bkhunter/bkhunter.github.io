@@ -1,57 +1,13 @@
-.content {
-    padding: 0px 10px 10px 10px;
-    font-family: 'Lato', sans-serif;
+#intro {
+    background-color: #3d82cd;
+    padding: 30px;    
 }
 
-.content h3 {
-    color: #233237;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
+#intro p {
+    color: black;
 }
 
-.content p:first-letter {
-    font-size: 200%;
-    color: rgb(27, 177, 255);
+#music {   
+    background-color:#10100e;
+    padding: 30px;
 }
-
-.content .contact {
-    text-align: center;
-}
-
-.profile-pic .img-responsive {
-    margin: 0 auto;
-}
-
-.jumbotron {
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 108px;
-    background-color:  rgba(150, 150, 150, 0.2); 
-    /*background-color: #4ca973;*/
-    /* background-image: url('../Images/profilePic.jpg'); */
-    /* background-color: #222123; */
-    background-repeat: repeat-y;
-    background-size: cover;
-}
-
-.jumbotron h2 {
-    text-align:center;
-    font-size: 50px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.btn {
-    font-size: 18px;
-    display: inline-block;
-    padding: 15px 30px;
-    color: white;
-    border: 2px solid transparent;
-    border-radius: 2px;
-    background: transparent;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-

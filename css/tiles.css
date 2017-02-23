@@ -1,0 +1,125 @@
+/* Css for project tiles which are found on most pages */
+
+.tile {
+    padding-top:10px;
+    text-align:left;
+    border-radius: 8px;
+    border: 2px solid #fefefe;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    height:392px;
+
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* anchor tag that covers entire div to make it clickable solution */
+/* from user @Enora at stackoverflow on Feb. 18, 2017 */
+/* http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+.block-click a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+
+.tile:hover {
+    /* border: 2px solid #00a8ff; */
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);
+}
+
+.tile:hover .project-name {
+    color: #3d82cd
+}
+
+.tile h2 {
+    font-size: 50px;
+    width:100%;
+    position:relative;
+    text-align: left;
+    color: black;
+    margin-top: 5px;
+    margin-bottom:0px;
+}
+
+.tile .project-name {
+    width:100%;
+    font-size: 25px;
+    padding: 15px 30px;
+    padding-left: 0;
+    text-align:left;
+
+    display: inline-block;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    color: black;
+    background: transparent;
+    font-weight: 400;
+
+}
+
+.tile p {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.tile .smaller {
+    font-size: 25px;
+}
+
+
+
+
+
+/* Media Queries for Tiles */ 
+
+/* phones */
+@media (max-width: 767px) {
+    .tile {
+	height:auto;
+    }
+
+    .tile .smaller {
+	font-size: 20px;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .tile {
+	height:392px;
+    }
+
+    .tile .smaller {
+	font-size: 25px;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .tile .smaller {
+	font-size: 20px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .tile .smaller {
+	font-size: 25px;
+    }
+}
