@@ -32,9 +32,7 @@
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 
-
 .tile:hover {
-    /* border: 2px solid #00a8ff; */
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.8);

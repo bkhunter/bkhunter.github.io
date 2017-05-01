@@ -1,13 +1,214 @@
 #intro {
-    background-color: #3d82cd;
-    padding: 30px;    
+    background-color: #10100e;
+    padding: 50px 30px 30px 30px;    
 }
 
 #intro p {
     color: black;
 }
 
-#music {   
-    background-color:#10100e;
+
+.title {
+    text-align: left;
+    padding: 10px;
+}
+
+.title h1 {
+    font-size: 54px;
+    color: #fde38c;
+    text-align:center;
+}
+
+.title h3 {
+    font-size: 20px;
+    text-transform: none;
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgba(200, 200, 200,0.8);
+    text-align:center;
+}
+
+.title h5 {
+    font-size: 16px;
+    text-transform: none;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fff;
+    text-align:center;
+}
+
+p {
+    text-align:left;
+    line-height: 1.8;
+    font-size: 16.5px;
+}
+
+#text1 {
+    background-color: #fafafa;
+    padding:30px;
+}
+
+#text1 p {
+    color: #000;
+}
+
+
+#text2 {
+    background-color:#3d82cd;
     padding: 30px;
+}
+
+#text2 p {
+    color: #fafafa;
+}
+
+#text3 {
+    background-color: #fafafa;
+    padding: 30px;
+}
+
+#text3 p {
+    color: black;
+}
+
+
+.heading {
+    width: 100%;
+    text-align:center;
+}
+
+.heading #meat {
+    color: #000;   
+}
+
+.heading #potato {
+    color: #fde38c;
+}
+
+.heading #gravy {
+    color: #3d82cd;
+}
+
+.heading #meat:before {
+    position:relative;
+    content: url("../Images/general/leftBraceBlack.png");
+    top: 5px;
+}
+
+.heading #meat:after {
+    position:relative;
+    content: url("../Images/general/rightBraceBlack.png");
+    top: 5px;
+}
+
+.heading #potato:before {
+    position:relative;
+    content: url("../Images/general/leftBraceYellow.png");
+    top: 5px;
+}
+
+.heading #potato:after {
+    position:relative;
+    content: url("../Images/general/rightBraceYellow.png");
+    top: 5px;
+}
+
+.heading #gravy:before {
+    position:relative;
+    content: url("../Images/general/leftBraceBlue.png");
+    top: 5px;
+}
+
+.heading #gravy:after {
+    position:relative;
+    content: url("../Images/general/rightBraceBlue.png");
+    top: 5px;
+}
+
+.border-circle {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.sketch {
+    background-color: #fff;
+    margin: 2 auto;
+}
+
+
+@media (max-width: 768px) {
+
+    p {
+	line-height: 20px;
+	font-size: 14px;
+    }
+    
+    #intro {
+	padding: 0px;
+	padding-bottom:10px;
+    }
+
+
+    #text1 {
+	padding: 10px 15px 0px 15px;
+    }
+
+    #text2 {
+	padding: 10px 15px 0px 15px;
+    }
+
+    #text3 {
+	padding: 10px 15px 0px 15px;
+    }
+
+    h2 {
+	font-size: 16px;
+    }
+
+    .heading #meat:before {
+	top: 10px;
+    }
+
+    .heading #meat:after {
+	top: 10px;
+    }
+
+    .heading #potato:before {
+	top: 10px;
+    }
+
+    .heading #potato:after {
+	top: 10px;
+    }
+
+    .heading #gravy:before {
+	top: 10px;
+    }
+
+    .heading #gravy:after {
+	top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .title {
+	padding-left: 0px;
+    }
+
+    .title h1{
+	text-align: left;
+    }
+
+    .title h3 {
+	text-align:left;
+    }
+
+    .title h5{
+	text-align: left;
+    }
 }

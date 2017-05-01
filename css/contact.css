@@ -1,0 +1,110 @@
+#contact {
+    padding: 30px;
+    background:#fde38c;
+    background: -webkit-linear-gradient(#fde38c,#fafafa); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fde38c,#fafafa); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fde38c,#fafafa); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fde38c,#fafafa); /* Standard syntax */
+    
+    text-align:center;
+}
+
+#contact h1 {
+    color: #3d82cd;
+    margin-bottom: 25px;
+}
+
+#contact h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #000;
+    font-size: 22px;
+}
+
+.opening {
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+
+hr {
+    display:block;
+    width:50%;
+    position:relative;
+    border-color: #000;
+}
+
+.methods {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.methods a {
+    color: #fff;
+}
+
+.methods a:hover {
+    color: #fde38c;
+}
+
+.methods p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.method {
+    background-color: #3d82cd;
+    position:relative;
+    padding: 5px;
+    margin-bottom:15px;
+}
+
+.method h4 {
+    margin: 0 auto;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fde38c;
+}
+
+.method:hover {
+    -webkit-box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
+    box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
+}
+
+.method:hover a {
+    color: #fde38c;
+}
+
+
+
+@media (max-width: 400px) {
+    .methods p {
+	font-size: 14px;
+    }
+}
+
+@media (min-width: 401px) {
+    .methods p {
+	font-size: 18px;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .methods p {
+	font-size: 14px;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .methods p {
+	font-size: 18px;
+    }
+    
+}

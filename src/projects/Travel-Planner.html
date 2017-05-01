@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Planner</title>
+    <meta charset="UTF-8"/>
+    <meta name="Travel Planner Project Page" content="Travel-Planner.html" />
+    <meta name="Author" content= "Ben Hunter" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/project.css">
+    <link rel="stylesheet" href="../../css/generalUI.css">
+    <link rel="stylesheet" href="../../css/tiles.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Arrows -->
+    <div class="arrows">
+      <a href="Sensory-Underload.html">
+	<img height="100" width="50" id="right" src="../../Images/general/next.png">
+      </a>
+      <a href="Regicide.html">
+	<img height="100" width="50" id="left" src="../../Images/general/prev.png">
+      </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar custom-nav" role="navigation">
+      <div class="container">
+	
+    	<div class="navbar-header">	  
+    	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#buttons">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+    	  </button>
+	  
+    	  <a href="../../index.html" class="navbar-brand">
+    	    <i class="fa fa-code" aria-hidden="true"></i> Ben Hunter
+    	  </a>	
+    	</div>
+
+	<div class="navbar-header navbar-right">	  
+    	  <div class="navbar-brand social">
+	    <a href="https://github.com/bkhunter">
+	      <i class="fa fa-github" aria-hidden="true"></i>
+	    </a>&zwnj;
+	    <a href="https://ca.linkedin.com/in/ben-hunter">
+	      <i class="fa fa-linkedin" aria-hidden="true"></i>
+	    </a>
+    	  </div>
+    	</div>
+	
+    	<div class="navbar-collapse collapse center-list" id="buttons">
+    	  <ul class="nav navbar-nav center-nav">	    
+            <li>
+	      <a href="../about_me.html">About</a>
+            </li>
+            <li>
+	      <a href="../projects.html">Projects</a>
+            </li>
+            <li>
+	      <a href="../contact.html">Contact</a>
+            </li>
+    	  </ul>	
+	</div>
+	
+    	<!-- /.navbar-header -->
+      </div>
+      <!-- /.container -->
+    </nav>  
+
+    <section class="project-header">
+      <div class="container">
+
+	<div class="row">
+
+	  <div class="col-md-12 responsive-header-md">
+	     <div class="title">
+	      <h1>Travel Planner</h1>
+	      <div class="underline"></div>
+	      <h6 class="years">January - April 2015
+		<a href="https://github.com/CMPUT301W15T13/TravelPlanner" class="source-link">
+		  <i class="fa fa-github-square" aria-hidden="true"></i>
+		</a>
+	      </h6>
+	    </div>
+	  </div>
+
+	  <div class="col-md-6 col-lg-5">
+
+	    <div class = "responsive-header-lg">
+	      <div class="title">
+	      <h1>Travel Planner</h1>
+	      <div class="underline"></div>
+	      <h6 class="years">January - April 2015
+		<a href="https://github.com/CMPUT301W15T13/TravelPlanner" class="source-link">
+		  <i class="fa fa-github-square" aria-hidden="true"></i>
+		</a>
+	      </h6>
+	      </div>
+	    </div>
+
+	    <div class="overview">
+	      <p>Have problems keeping track of finances when you travel? Then this app might be for you. Created for a software engineering course at the University of Alberta, manage expenses, receipts, locations, and data for yourself or someone back home.
+	      </p>
+	    </div>
+
+	  </div>
+
+	  <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-1">
+	     <img class="img-responsive" src="../../Images/projectImages/TravelPlannerMain.png" alt="Cache 22">
+	  </div>
+
+	</div>
+      </div>
+    </section>
+
+    <section class="project-content">
+      <div class="container">
+	<div class="row">
+
+	  <div class="col-sm-12 col-lg-10 col-lg-offset-1">
+	    <div class="header-with-lines">
+	      <h2>Development</h2>
+	    </div>
+	    <div class="project-text">
+
+	      <p>At the University of Alberta, CMPUT 301 is somewhat of a staple in the average undergraduate's education. It is the first course that really expects a lot from students in terms of self learning, contains a large group project, and does not tolerate complacency (for example, failure of assignment 1 means failure of the entire course). The course itself is not actually about learning Android, but rather using it as platform to teach things like object oriented programming, design patterns, and software engineering principles. Despite this, a lot of Android has to happen, and for my group this lead to Travel Planner, a helpful tool for someone travelling on a budget. At its core is the ability to track travel expenses for the user, including purchases that could have attached receipts, locations, and data, and submit them to an approver for review. The app features multiple types of users, a multimedia claim making interface, geolocation, use of Android fragments, and network persistence through Elastic Search.</p>
+
+	      <p>
+Development of this app was unlike any other project I had been a part of before. We were managed by a mock manager in the lab TA, who was managed by a mock client in the professor, emulating a professional environment. We were given a list of functional requirements to work with, as should be determined before anything is developed, and consulted with the TA every week about how best to address them. This professional-style atmosphere, combined with the complexity of the project, was incredibly developmental, but also more work than I had ever done in a class before. My primary role was programming and documentation, but towards the end skewed to project management including things like managing user stories/requirements and testing. Travel Planner is really more about the how than the what, but exists as a monument to a great course, and a foundational part of my education. Below is the promotional video I made of the app for bonus marks, and you can view the github repository <a href="https://github.com/CMPUT301W15T13/TravelPlanner" style="color:blue;">here</a>.
+	      </p>	   
+ 
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+    <section class="video">
+      <div class="container">
+	<div class="row">
+	  <div class="col-md-12 col-md-10 col-md-offset-1">
+	    <div class="shadow rounded video-box">
+	      <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cTY7RRSuV9g"></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+
+    <!-- 3 next projects -->
+    <section id="projects" class="text-center">
+      <div class="projects-section">
+	<div class="header-with-lines">
+	  <h2>More Projects</h2>
+	</div>
+        <div class="container">
+	  <div class="row">
+
+	     <!-- Sensory Underload -->
+    	    <div class="col-xs-6 col-sm-4">
+	      <div class="tile">
+		<div class="block-click">
+		  <a href="Sensory-Underload.html">
+		</div>
+
+		<a class="regular-img">
+                  <img class="img-responsive rounded" src="../../Images/projectImages/SensoryUnderload.png" alt="Sensory Underload">
+		</a>
+
+		<a class="icon">
+		  <img class="img-responsive img-circle" style="margin: auto;" src="../../Images/icons/sensoryIcon.png" alt="Sensory Underload">
+		</a>
+				
+		<h2>
+		  <a class="project-name responsive-title">Sensory</br>Underload</a>
+		</h2>
+		<p class="responsive-text">Can you make a game with no visuals? Well...I tried.</p>
+    	      </div>
+	    </div>
+	    
+	    <!-- This Website -->
+    	    <div class="col-xs-6 col-sm-4">
+	      <div class="tile">
+		<div class="block-click">
+		  <a href="This-Website.html">
+		</div>
+
+		<a class="regular-img">
+                  <img class="img-responsive rounded" src="../../Images/projectImages/ThisWebsite.png" alt="This Website">
+		</a>
+
+		<a class="icon">
+		  <img class="img-responsive img-circle" style="margin: auto;" src="../../Images/icons/recursion.png" alt="Keith To The Past">
+		</a>
+				
+		<h2>
+		  <a class="project-name responsive-title">This</br>Website</a>
+		</h2>
+		<p class="responsive-text">My personal website, the story of an internal argument between myself and the sunk-cost fallacy</p>
+    	      </div>
+	    </div>
+
+	    <!-- Kinect Tai Chi -->
+    	    <div class="col-xs-12 col-sm-4 resp-hide">
+	      <div class="tile">
+		<div class="block-click">
+		  <a href="Kinect-Tai-Chi.html"></a>
+		</div>
+
+    		<a>
+                  <img class="img-responsive rounded" src="../../Images/projectImages/TaiChiKinect.png" alt="Kinect Tai Chi">
+		</a>
+		
+		<h2>
+		  <a class="project-name responsive-title">Kinect </br> Tai Chi</a>
+		</h2>
+		<p class="responsive-text">An exercise game that was the result of a group project aimed at helping people learn Tai Chi using the Microsoft Kinect.</p>
+    	      </div>  
+	    </div>
+	    
+	  </div>	  
+	</div>
+      </div>
+    </section>
+
+    <footer class="navbar custom-nav">
+      <div class="container">
+	
+    	<div class="navbar-header">	  	  
+    	  <a href="../../index.html" class="navbar-brand">
+	    &copy;2017 Ben Hunter
+    	  </a>	
+    	</div>	
+
+	<!-- collapse so it is removed for mobile devices -->
+    	<div class="navbar-collapse collapse footer-style">
+    	  <ul class="nav navbar-nav navbar-right">	    
+            <li>
+	      <a href="../about_me.html">About</a>
+            </li>
+            <li>
+	      <a href="../projects.html">Projects</a>
+            </li>
+            <li>
+	      <a href="../contact.html">Contact</a>
+            </li>
+	  </ul>
+	</div>	  
+
+      </div>
+    </footer>  
+
+
+  </body>
+</html>
