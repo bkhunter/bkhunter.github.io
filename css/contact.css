@@ -1,28 +1,48 @@
 #contact {
     padding: 30px;
-    background:#fde38c;
-    background: -webkit-linear-gradient(#fde38c,#fafafa); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#fde38c,#fafafa); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#fde38c,#fafafa); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#fde38c,#fafafa); /* Standard syntax */
-    
+    background:#10100e;
     text-align:center;
 }
 
-#contact h1 {
+#options {
+    padding: 30px;
+    background:#3d82cd;
+    text-align:center;
+}
+
+#contact h1, #options h1 {
     color: #3d82cd;
+    font-size: 54px;
     margin-bottom: 25px;
 }
 
-#contact h3 {
+#contact h3, #options h3 {
     font-family: 'Julius Sans One', sans-serif;
-    color: #000;
-    font-size: 22px;
+    color: #fff;
+    text-transform: none;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+#contact h5, #options h5 {
+    font-size: 16px;
+    text-transform: none;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fde38c;
+}
+
+.connect {
+    font-size:50px;
 }
 
 .opening {
-    padding: 15px;
-    padding-bottom: 20px;
+    text-align:center;
+}
+
+.line {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 2px solid #fff;
 }
 
 
@@ -33,13 +53,60 @@ hr {
     border-color: #000;
 }
 
+.mailing {
+    margin-bottom: 30px;
+    margin-top:0px;
+}
+
+.mailing a {
+    color:#000;
+}
+
+.mailing a:hover {
+    color: #fde38c;
+}
+
+.mailing p {
+    color: #000;
+    font-size: 24px;
+}
+
+
+.mail {
+    background-color: #fff;
+    position:relative;
+    padding: 5px;
+    margin-bottom:15px;
+}
+
+.mail h4 {
+    margin: 0 auto;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #3d82cd;
+}
+
+.mail:hover {
+    -webkit-box-shadow: 0px 1px 3px 0px rgb(250, 250, 250);
+    -moz-box-shadow: 0px 1px 3px 0px rgb(250, 250, 250);
+    box-shadow: 0px 1px 3px 0px rgb(250, 250, 250);
+}
+
+.mail:hover a {
+    color: #3d82cd;
+}
+
 .methods {
     padding: 10px;
     margin-bottom: 30px;
 }
 
 .methods a {
-    color: #fff;
+    color: #3d82cd;
 }
 
 .methods a:hover {
@@ -47,12 +114,12 @@ hr {
 }
 
 .methods p {
-    color: #fff;
+    color: #000;
     font-size: 18px;
 }
 
 .method {
-    background-color: #3d82cd;
+    background-color: #fff;
     position:relative;
     padding: 5px;
     margin-bottom:15px;
@@ -65,24 +132,26 @@ hr {
 
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fde38c;
+    color: #3d82cd;
 }
 
 .method:hover {
-    -webkit-box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
-    -moz-box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
-    box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 1px 3px 0px rgb(253, 227, 140);
+    -moz-box-shadow: 0px 1px 3px 0px rgb(253, 227, 140);
+    box-shadow: 0px 1px 3px 0px rgb(253, 227, 140);
 }
 
 .method:hover a {
-    color: #fde38c;
+    color: #000;
 }
-
 
 
 @media (max-width: 400px) {
     .methods p {
 	font-size: 14px;
+    }
+    .mailing p {
+	font-size: 18px;
     }
 }
 
@@ -98,6 +167,18 @@ hr {
     .methods p {
 	font-size: 14px;
     }
+
+    .mailing p {
+	font-size: 14px;
+    }
+
+    .opening {
+	text-align: left;
+    }
+
+    .mailing {
+	margin-top:40px;
+    }
 }
 
 
@@ -105,6 +186,14 @@ hr {
 @media (min-width: 992px) {
     .methods p {
 	font-size: 18px;
+    }
+
+    .methods p {
+	font-size: 18px;
+    }
+
+    .mailing {
+	margin-top:0px;
     }
     
 }
