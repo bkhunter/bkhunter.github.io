@@ -141,10 +141,6 @@ hr {
     #contact p, #options p {
 	font-size: 14px;
     }
-    
-    .opening {
-	text-align: left;
-    }
 
     .mailing {
 	margin-top:40px;
@@ -154,6 +150,10 @@ hr {
 @media (max-width: 767px) {
     #contact p, #options p {
 	font-size: 18px;
+    }
+
+    .opening {
+	text-align: center;
     }
 }
 
