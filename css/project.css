@@ -185,6 +185,11 @@
 	display: none !important;
     }
 
+    .project-text p {
+	line-height: 1.4;
+	font-size: 14px;
+     }
+
 }
 
 
@@ -211,9 +216,6 @@
     }
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-}
 
 
 @media (min-width: 850px) { 

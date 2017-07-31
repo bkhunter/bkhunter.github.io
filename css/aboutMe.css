@@ -11,12 +11,13 @@
 .title {
     text-align: left;
     padding: 10px;
+    padding-left:0px;
 }
 
 .title h1 {
     font-size: 54px;
     color: #fde38c;
-    text-align:center;
+    text-align:left;
 }
 
 .title h3 {
@@ -24,7 +25,7 @@
     text-transform: none;
     font-family: 'Julius Sans One', sans-serif;
     color: rgba(200, 200, 200,0.8);
-    text-align:center;
+    text-align:left;
 }
 
 .title h5 {
@@ -32,7 +33,7 @@
     text-transform: none;
     font-family: 'Julius Sans One', sans-serif;
     color: #fff;
-    text-align:center;
+    text-align:left;
 }
 
 p {
@@ -193,22 +194,16 @@ p {
 	top: 10px;
     }
 
-}
-
-@media (min-width: 768px) {
-    .title {
-	padding-left: 0px;
-    }
-
     .title h1{
-	text-align: left;
+	text-align: center;
     }
 
     .title h3 {
-	text-align:left;
+	text-align: center;
     }
 
     .title h5{
-	text-align: left;
+	text-align: center;
     }
+
 }

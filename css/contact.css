@@ -32,20 +32,15 @@
     color: #fde38c;
 }
 
-.connect {
-    font-size:50px;
+#contact p, #options p {
+    color: #000;
+    font-size: 18px;
 }
+
 
 .opening {
-    text-align:center;
+    text-align:left;
 }
-
-.line {
-   width: 100%; 
-   text-align: center; 
-   border-bottom: 2px solid #fff;
-}
-
 
 hr {
     display:block;
@@ -114,11 +109,6 @@ hr {
     color: #fde38c;
 }
 
-.methods p {
-    color: #000;
-    font-size: 18px;
-}
-
 .method {
     background-color: #fff;
     position:relative;
@@ -143,36 +133,15 @@ hr {
 }
 
 .method:hover a {
-    color: #000;
+    color: #152d93;
 }
 
+@media (max-width: 991px) {
 
-@media (max-width: 400px) {
-    .methods p {
+    #contact p, #options p {
 	font-size: 14px;
     }
-    .mailing p {
-	font-size: 18px;
-    }
-}
-
-@media (min-width: 401px) {
-    .methods p {
-	font-size: 18px;
-    }
-}
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .methods p {
-	font-size: 14px;
-    }
-
-    .mailing p {
-	font-size: 14px;
-    }
-
+    
     .opening {
 	text-align: left;
     }
@@ -182,19 +151,18 @@ hr {
     }
 }
 
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .methods p {
+@media (max-width: 767px) {
+    #contact p, #options p {
 	font-size: 18px;
     }
+}
 
-    .methods p {
+
+@media (max-width: 400px) {
+    #options p {
+	font-size: 14px;
+    }
+    #contact p {
 	font-size: 18px;
     }
-
-    .mailing {
-	margin-top:0px;
-    }
-    
 }
