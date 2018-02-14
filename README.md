@@ -17,4 +17,3 @@ Portfolio website built with HTML, CSS, Bootstrap, and javascript. I plan on upd
 ### Stock images from [gratisography](http://gratisography.com/)
 
 *All Images edited and created with Gimp, with the exception of fontawesome and gratisography*
-
